@@ -11,9 +11,10 @@
     }
 
     #bodyId {
-        background: #ffffff;
-        background-image: url(https://pages.stedwards.edu/rs/765-THY-030/images/SEU-stripe_background.png);
-        background-repeat: repeat;
+        background-color: #eee;
+        background: linear-gradient(160deg, transparent 0%, transparent 30%, rgba(25,25,25,1) 30%, rgba(25,25,25,1) 100%);
+        background-size: 3000px 3000px;
+
         font-family: Helvetica, Arial, Sans-Serif;
         font-size: 12px;
         text-align: center;
@@ -36,6 +37,22 @@
         margin-bottom: 0px;
         text-align: left;
     }
+
+    @media only screen and (max-width: 600px) {
+
+      #bodyId {
+          background: #fff;
+          background-repeat: repeat;
+          font-family: Helvetica, Arial, Sans-Serif;
+          font-size: 12px;
+          text-align: center;
+          margin: 0px;
+          padding: 0px;
+      }
+
+    }
+
+
     </style>
     <style>
     /* Note: You can also change these in the specific Landing Pages*/
@@ -45,26 +62,26 @@
         width: 980px;
     }
     /*a:link {
-	color:#000000;
-	text-decoration:none;
+    color:#000000;
+    text-decoration:none;
 
 }
 
 a:visited {
-	color:#000000;
-	text-decoration:none;
+    color:#000000;
+    text-decoration:none;
 
 }
 
 a:active {
-	color:#000000;
-	text-decoration:none;
+    color:#000000;
+    text-decoration:none;
 
 }
 
 a:hover {
-	color:#000000;
-	text-decoration:underline;
+    color:#000000;
+    text-decoration:underline;
 
 }
 */
@@ -80,7 +97,7 @@ a:hover {
     }
 
     div#mktHeader {
-        height: 124px;
+        height: 105px;
         margin: 0 auto;
         position: relative;
         width: 980px;
@@ -214,61 +231,61 @@ a:hover {
     /* Start fancy button
 
 div.buttonSubmit {
-  	float:left;
-  	position:relative;
-	margin-left:10px;
-	top:10px;
-	}
+    float:left;
+    position:relative;
+    margin-left:10px;
+    top:10px;
+    }
 
 div.buttonSubmit input, div.buttonSubmit span {
-	background-image:url(/rs/stedwardsuniversity/images/button-submit07.gif);
-	background-position:right 0px;
-	background-repeat:no-repeat;
-	border:0px none;
-	color:#FFFFFF;
-	cursor:pointer;
-	float:left;
-	font-weight:bold;
-	height:36px;
-	margin:0px;
-	padding:0px 15px 2px;
-	position:relative;
-	z-index:5;
-	}
+    background-image:url(/rs/stedwardsuniversity/images/button-submit07.gif);
+    background-position:right 0px;
+    background-repeat:no-repeat;
+    border:0px none;
+    color:#FFFFFF;
+    cursor:pointer;
+    float:left;
+    font-weight:bold;
+    height:36px;
+    margin:0px;
+    padding:0px 15px 2px;
+    position:relative;
+    z-index:5;
+    }
 
 div.buttonSubmit span {
-	background-position:left -36px;
-	left:-4px;
-	padding:0px;
-	position:absolute;
-	top:0px;
-	width:4px;
-	z-index:10;
-	}
+    background-position:left -36px;
+    left:-4px;
+    padding:0px;
+    position:absolute;
+    top:0px;
+    width:4px;
+    z-index:10;
+    }
 
 div.buttonSubmit input {
-	width:auto;
-	padding-left: 6px !important;
-	padding-right: 10px !important;
-	}
+    width:auto;
+    padding-left: 6px !important;
+    padding-right: 10px !important;
+    }
 
 #mktFrmSubmit{
-	background-color:transparent;
+    background-color:transparent;
     color: #FFFFFF !important;
-	font-size:13px;
-	}
+    font-size:13px;
+    }
 
 div.buttonSubmit:hover input {
-	background-position: right -72px;
-	}
+    background-position: right -72px;
+    }
 div.buttonSubmit:hover span {
-	background-position:
-	left -108px;
-	}
+    background-position:
+    left -108px;
+    }
 */
     /* Required Fields Stars Fix Commented Out On Client Request ONLY
 form.lpeRegForm li.mktFormReq label {
-	background-image:url("/rs/stedwardsuniversity/images/star.png")!important;
+    background-image:url("/rs/stedwardsuniversity/images/star.png")!important;
 }
 */
     /*** CSS3 PIE GRADIENT BUTTON
@@ -374,11 +391,11 @@ img.png { behavior: url(/js/public/iepngfix.htc) }
             <div id="mktFooter" class="mktEditable">
                 <div class="copyright">© 2017 St. Edward's University</div>
                 <!-- <div class="footerlinks">
-			<a href="#">Contact Us</a> |
-			<a href="#">Terms of Use</a> |
-			<a href="#">Terms of Service</a> |
-			<a href="#">RSS Feed</a>
-		</div> -->
+            <a href="#">Contact Us</a> |
+            <a href="#">Terms of Use</a> |
+            <a href="#">Terms of Service</a> |
+            <a href="#">RSS Feed</a>
+        </div> -->
 
             </div>
         </div>
