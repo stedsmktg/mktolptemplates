@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="all" href="/css/mktLPSupportCompat.css">
+    <script language="JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <style type="text/css">
+    * {
+        -webkit-text-size-adjust: none
+    }
+
+    #bodyId {
+        background: #ffffff;
+        background-image: url(https://pages.stedwards.edu/rs/765-THY-030/images/SEU-stripe_background.png);
+        background-repeat: repeat;
+        font-family: Helvetica, Arial, Sans-Serif;
+        font-size: 12px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    div#outerWrapDiv {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+    div#innerWrapDiv {
+        position: relative;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: left;
+    }
+    </style>
+    <style>
+    /* Note: You can also change these in the specific Landing Pages*/
+    /* Width of Full Page */
+
+    div#innerWrapDiv {
+        width: 980px;
+    }
+    /*a:link {
+	color:#000000;
+	text-decoration:none;
+
+}
+
+a:visited {
+	color:#000000;
+	text-decoration:none;
+
+}
+
+a:active {
+	color:#000000;
+	text-decoration:none;
+
+}
+
+a:hover {
+	color:#000000;
+	text-decoration:underline;
+
+}
+*/
+
+    img {
+        border: none;
+    }
+    /* Main Header Area  */
+
+    div#headerWrap {
+        background: #002566;
+        width: 100%;
+    }
+
+    div#mktHeader {
+        height: 124px;
+        margin: 0 auto;
+        position: relative;
+        width: 980px;
+    }
+
+    .logo {
+        border: 0px;
+        left: -0px;
+        position: absolute;
+        top: 28px;
+    }
+    /* Main Content Area - Controls height of page */
+
+    div#mktContent {
+        background-color: #FFFFFF;
+        height: 1060px;
+        position: relative;
+        width: 980px;
+        margin: 0 auto;
+    }
+    /* Thin Column in Content */
+
+    div#mktcolumns {
+        background: transparent;
+        border: #E6E6E6 1px solid;
+        height: 425px;
+        position: absolute;
+        right: 61px;
+        top: 3px;
+        width: 250px;
+    }
+    /* Footer Area */
+
+    div#footerWrap {
+        background: transparent;
+        width: 100%;
+    }
+
+    div#mktFooter {
+        font-size: 11px;
+        height: 32px;
+        margin: 0 auto;
+        position: relative;
+        width: 980px;
+    }
+    /* Footer links and Copyright */
+
+    .copyright {
+        color: #666;
+        left: 0px;
+        position: absolute;
+        top: 11px;
+        font-weight: bold;
+        width: 169px;
+        height: 19px;
+    }
+
+    .social {
+        left: 315px;
+        position: absolute;
+        top: 10px;
+        width: 250px;
+        height: 50px;
+    }
+
+    .facebook {
+        left: 0px;
+        position: absolute;
+        top: 0px;
+        width: 32px;
+    }
+
+    .twitter {
+        left: 42px;
+        position: absolute;
+        top: 0px;
+        width: 32px;
+    }
+
+    .linkedin {
+        left: 84px;
+        position: absolute;
+        top: 0px;
+        width: 32px;
+    }
+
+    .google {
+        left: 126px;
+        position: absolute;
+        top: 0px;
+        width: 32px;
+    }
+
+    .flickr {
+        left: 168px;
+        position: absolute;
+        top: 0px;
+        width: 32px;
+    }
+
+    .youtube {
+        left: 210px;
+        position: absolute;
+        top: 0px;
+        width: 32px;
+    }
+
+    .instagram {
+        left: 252px;
+        position: absolute;
+        top: 0px;
+        width: 32px;
+    }
+
+    .footerlinks {
+        right: 0px;
+        position: absolute;
+        top: 5px;
+    }
+
+    .footerlinks a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .footerlinks a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+    /* Social media */
+    /* Start fancy button
+
+div.buttonSubmit {
+  	float:left;
+  	position:relative;
+	margin-left:10px;
+	top:10px;
+	}
+
+div.buttonSubmit input, div.buttonSubmit span {
+	background-image:url(/rs/stedwardsuniversity/images/button-submit07.gif);
+	background-position:right 0px;
+	background-repeat:no-repeat;
+	border:0px none;
+	color:#FFFFFF;
+	cursor:pointer;
+	float:left;
+	font-weight:bold;
+	height:36px;
+	margin:0px;
+	padding:0px 15px 2px;
+	position:relative;
+	z-index:5;
+	}
+
+div.buttonSubmit span {
+	background-position:left -36px;
+	left:-4px;
+	padding:0px;
+	position:absolute;
+	top:0px;
+	width:4px;
+	z-index:10;
+	}
+
+div.buttonSubmit input {
+	width:auto;
+	padding-left: 6px !important;
+	padding-right: 10px !important;
+	}
+
+#mktFrmSubmit{
+	background-color:transparent;
+    color: #FFFFFF !important;
+	font-size:13px;
+	}
+
+div.buttonSubmit:hover input {
+	background-position: right -72px;
+	}
+div.buttonSubmit:hover span {
+	background-position:
+	left -108px;
+	}
+*/
+    /* Required Fields Stars Fix Commented Out On Client Request ONLY
+form.lpeRegForm li.mktFormReq label {
+	background-image:url("/rs/stedwardsuniversity/images/star.png")!important;
+}
+*/
+    /*** CSS3 PIE GRADIENT BUTTON
+   Directions: Delete Fancy Button CSS and Fancy Button JS
+   optional: Obtain gradient code from: http://css3pie.com/
+***/
+
+    .lpeRegForm input {
+        behavior: url("/rs/stedwardsuniversity/images/PIE.htc");
+    }
+
+    .lpeRegForm input[type="reset"],
+    .lpeRegForm input[type="submit"],
+    .lpeRegForm input[type="button"] {
+        background: #0e70a0;
+        border: 0;
+        -webkit-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px;
+        color: #FFFFFF !important;
+        cursor: pointer;
+        display: inline;
+        font-size: 12px !important;
+        font-weight: bold;
+        left: 0px;
+        padding: 10px 15px !important;
+        position: relative;
+        text-transform: uppercase;
+        top: 10px;
+        -webkit-appearance: none;
+    }
+
+    .lpeRegForm input[type="reset"]:hover,
+    .lpeRegForm input[type="submit"]:hover,
+    .lpeRegForm input[type="button"]:hover {
+        background: #218ec4;
+    }
+    </style>
+    <!--[if lt IE 7]>
+
+<style>
+img.png { behavior: url(/js/public/iepngfix.htc) }
+</style>
+
+  <![endif]-->
+    <script>
+    // to make fancy buttons.  Uses noConflict just in case
+    var $jQ = jQuery.noConflict();
+
+    // Use jQuery via $j(...)
+    $jQ(document).ready(function() {
+
+        /*$jQ('input[id=mktFrmSubmit]').wrap("<div class='buttonSubmit'></div>");
+        $jQ(".buttonSubmit").prepend("<span></span>");*/
+
+    });
+    </script>
+    <title>St. Edward's University | Austin, Texas</title>
+</head>
+
+<body id="bodyId" class="mktEditable" align="center">
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NBNQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NBNQ');
+    </script>
+    <!-- End Google Tag Manager -->
+    <div id="outerWrapDiv">
+        <div id="headerWrap">
+            <div id="mktHeader" class="mktEditable">
+                <!-- Logo and Header -->
+                <div class="logo">
+                    <a href="https://www.stedwards.edu/">
+                        <img src="https://pages.stedwards.edu/rs/765-THY-030/images/SEU_Master_Horizontal_white.png" alt"St. Edward's University logo"></a>
+                </div>
+            </div>
+        </div>
+        <div id="innerWrapDiv" class="mktEditable">
+            <div class="mktoContent"></div>
+            <div id="mktContent" class="mktEditable">
+                <!-- Base of Landing Page Content -->
+            </div>
+        </div>
+        <div id="footerWrap">
+            <div id="mktFooter" class="mktEditable">
+                <div class="copyright">© 2017 St. Edward's University</div>
+                <!-- <div class="footerlinks">
+			<a href="#">Contact Us</a> |
+			<a href="#">Terms of Use</a> |
+			<a href="#">Terms of Service</a> |
+			<a href="#">RSS Feed</a>
+		</div> -->
+
+            </div>
+        </div>
+    </div>
+    <!-- GOOGLE ANALYTICS.  ENTER YOUR CODE and UNCOMMENT block -->
+    <!--
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "YOURCODE";
+urchinTracker();
+</script>
+-->
+</body>
+
+</html>
