@@ -11,12 +11,11 @@
     }
 
     #bodyId {
-        background: #ffffff;
+        background:url(https://pages.stedwards.edu/rs/765-THY-030/images/BG-lines-180x330-06092017.png) fixed no-repeat bottom center;
+        background-color: #F1F6F0;
         font-family: Helvetica, Arial, Sans-Serif;
         font-size: 12px;
-        text-align: center;
-        margin: 0px;
-        padding: 0px;
+          background-size: 100% auto;
     }
 
     div#outerWrapDiv {
@@ -38,7 +37,8 @@
     @media only screen and (max-width: 600px) {
 
       #bodyId {
-          background: #fff;
+          background: #F1F6F0;
+          background-repeat: repeat;
           font-family: Helvetica, Arial, Sans-Serif;
           font-size: 12px;
           text-align: center;
@@ -54,6 +54,9 @@
     /* Note: You can also change these in the specific Landing Pages*/
     /* Width of Full Page */
 
+    div#innerWrapDiv {
+        width: 980px;
+    }
     /*a:link {
     color:#000000;
     text-decoration:none;
@@ -102,16 +105,10 @@ a:hover {
         position: absolute;
         top: 28px;
     }
-
-    div#innerWrapDiv {
-        width: 980px;
-        background-color: #eee; /*right background color*/
-    }
-
     /* Main Content Area - Controls height of page */
 
     div#mktContent {
-        background: linear-gradient(300deg, transparent 0%, transparent 40%, rgba(250,250,250,1) 30%, rgba(250,250,250,1) 100%); /*left background color*/
+        background-color: #FFFFFF;
         height: 1060px;
         position: relative;
         width: 980px;
@@ -349,6 +346,8 @@ img.png { behavior: url(/js/public/iepngfix.htc) }
 </head>
 
 <body id="bodyId" class="mktEditable" align="center">
+
+
     <!-- Google Tag Manager -->
     <noscript>
         <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NBNQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -370,6 +369,9 @@ img.png { behavior: url(/js/public/iepngfix.htc) }
     })(window, document, 'script', 'dataLayer', 'GTM-NBNQ');
     </script>
     <!-- End Google Tag Manager -->
+
+
+
     <div id="outerWrapDiv">
         <div id="headerWrap">
             <div id="mktHeader" class="mktEditable">
