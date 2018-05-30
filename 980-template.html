@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" media="all" href="/css/mktLPSupportCompat.css">
-    <script language="JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <style type="text/css">
     * {
         -webkit-text-size-adjust: none
@@ -12,8 +11,6 @@
 
     #bodyId {
         background: #ffffff;
-        /*background-image: url(https://pages.stedwards.edu/rs/765-THY-030/images/SEU-stripe_background.png);*/
-        background-repeat: repeat;
         font-family: Helvetica, Arial, Sans-Serif;
         font-size: 12px;
         text-align: center;
@@ -28,62 +25,12 @@
     }
 
     div#innerWrapDiv {
+        width: 980px;
         position: relative;
         padding: 0px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0px;
-        margin-bottom: 0px;
+        margin: 0px auto;
         text-align: left;
     }
-
-    @media only screen and (max-width: 600px) {
-
-      #bodyId {
-          background: #ffffff;
-          background-repeat: repeat;
-          font-family: Helvetica, Arial, Sans-Serif;
-          font-size: 12px;
-          text-align: center;
-          margin: 0px;
-          padding: 0px;
-      }
-
-    }
-
-
-    </style>
-    <style>
-    /* Note: You can also change these in the specific Landing Pages*/
-    /* Width of Full Page */
-
-    div#innerWrapDiv {
-        width: 980px;
-    }
-    /*a:link {
-    color:#000000;
-    text-decoration:none;
-
-}
-
-a:visited {
-    color:#000000;
-    text-decoration:none;
-
-}
-
-a:active {
-    color:#000000;
-    text-decoration:none;
-
-}
-
-a:hover {
-    color:#000000;
-    text-decoration:underline;
-
-}
-*/
 
     img {
         border: none;
@@ -117,17 +64,6 @@ a:hover {
         width: 980px;
         margin: 0 auto;
     }
-    /* Thin Column in Content */
-
-    div#mktcolumns {
-        background: transparent;
-        border: #E6E6E6 1px solid;
-        height: 425px;
-        position: absolute;
-        right: 61px;
-        top: 3px;
-        width: 250px;
-    }
     /* Footer Area */
 
     div#footerWrap {
@@ -153,198 +89,20 @@ a:hover {
         width: 169px;
         height: 19px;
     }
+    /* Responsive */
 
-    .social {
-        left: 315px;
-        position: absolute;
-        top: 10px;
-        width: 250px;
-        height: 50px;
-    }
+    @media only screen and (max-width: 600px) {
 
-    .facebook {
-        left: 0px;
-        position: absolute;
-        top: 0px;
-        width: 32px;
-    }
-
-    .twitter {
-        left: 42px;
-        position: absolute;
-        top: 0px;
-        width: 32px;
-    }
-
-    .linkedin {
-        left: 84px;
-        position: absolute;
-        top: 0px;
-        width: 32px;
-    }
-
-    .google {
-        left: 126px;
-        position: absolute;
-        top: 0px;
-        width: 32px;
-    }
-
-    .flickr {
-        left: 168px;
-        position: absolute;
-        top: 0px;
-        width: 32px;
-    }
-
-    .youtube {
-        left: 210px;
-        position: absolute;
-        top: 0px;
-        width: 32px;
-    }
-
-    .instagram {
-        left: 252px;
-        position: absolute;
-        top: 0px;
-        width: 32px;
-    }
-
-    .footerlinks {
-        right: 0px;
-        position: absolute;
-        top: 5px;
-    }
-
-    .footerlinks a {
-        color: #000000;
-        text-decoration: none;
-    }
-
-    .footerlinks a:hover {
-        color: #000000;
-        text-decoration: underline;
-    }
-    /* Social media */
-    /* Start fancy button
-
-div.buttonSubmit {
-    float:left;
-    position:relative;
-    margin-left:10px;
-    top:10px;
-    }
-
-div.buttonSubmit input, div.buttonSubmit span {
-    background-image:url(/rs/stedwardsuniversity/images/button-submit07.gif);
-    background-position:right 0px;
-    background-repeat:no-repeat;
-    border:0px none;
-    color:#FFFFFF;
-    cursor:pointer;
-    float:left;
-    font-weight:bold;
-    height:36px;
-    margin:0px;
-    padding:0px 15px 2px;
-    position:relative;
-    z-index:5;
-    }
-
-div.buttonSubmit span {
-    background-position:left -36px;
-    left:-4px;
-    padding:0px;
-    position:absolute;
-    top:0px;
-    width:4px;
-    z-index:10;
-    }
-
-div.buttonSubmit input {
-    width:auto;
-    padding-left: 6px !important;
-    padding-right: 10px !important;
-    }
-
-#mktFrmSubmit{
-    background-color:transparent;
-    color: #FFFFFF !important;
-    font-size:13px;
-    }
-
-div.buttonSubmit:hover input {
-    background-position: right -72px;
-    }
-div.buttonSubmit:hover span {
-    background-position:
-    left -108px;
-    }
-*/
-    /* Required Fields Stars Fix Commented Out On Client Request ONLY
-form.lpeRegForm li.mktFormReq label {
-    background-image:url("/rs/stedwardsuniversity/images/star.png")!important;
-}
-*/
-    /*** CSS3 PIE GRADIENT BUTTON
-   Directions: Delete Fancy Button CSS and Fancy Button JS
-   optional: Obtain gradient code from: http://css3pie.com/
-***/
-
-    .lpeRegForm input {
-        behavior: url("/rs/stedwardsuniversity/images/PIE.htc");
-    }
-
-    .lpeRegForm input[type="reset"],
-    .lpeRegForm input[type="submit"],
-    .lpeRegForm input[type="button"] {
-        background: #0e70a0;
-        border: 0;
-        -webkit-border-radius: 5px;
-        -khtml-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
-        border-radius: 5px;
-        color: #FFFFFF !important;
-        cursor: pointer;
-        display: inline;
-        font-size: 12px !important;
-        font-weight: bold;
-        left: 0px;
-        padding: 10px 15px !important;
-        position: relative;
-        text-transform: uppercase;
-        top: 10px;
-        -webkit-appearance: none;
-    }
-
-    .lpeRegForm input[type="reset"]:hover,
-    .lpeRegForm input[type="submit"]:hover,
-    .lpeRegForm input[type="button"]:hover {
-        background: #218ec4;
+        #bodyId {
+            background: #ffffff;
+            font-family: Helvetica, Arial, Sans-Serif;
+            font-size: 12px;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+        }
     }
     </style>
-    <!--[if lt IE 7]>
-
-<style>
-img.png { behavior: url(/js/public/iepngfix.htc) }
-</style>
-
-  <![endif]-->
-    <script>
-    // to make fancy buttons.  Uses noConflict just in case
-    var $jQ = jQuery.noConflict();
-
-    // Use jQuery via $j(...)
-    $jQ(document).ready(function() {
-
-        /*$jQ('input[id=mktFrmSubmit]').wrap("<div class='buttonSubmit'></div>");
-        $jQ(".buttonSubmit").prepend("<span></span>");*/
-
-    });
-    </script>
     <title>St. Edward's University | Austin, Texas</title>
 </head>
 
@@ -388,26 +146,10 @@ img.png { behavior: url(/js/public/iepngfix.htc) }
         </div>
         <div id="footerWrap">
             <div id="mktFooter" class="mktEditable">
-                <div class="copyright">© 2017 St. Edward's University</div>
-                <!-- <div class="footerlinks">
-            <a href="#">Contact Us</a> |
-            <a href="#">Terms of Use</a> |
-            <a href="#">Terms of Service</a> |
-            <a href="#">RSS Feed</a>
-        </div> -->
-
+                <div class="copyright">© 2018 St. Edward's University</div>
             </div>
         </div>
     </div>
-    <!-- GOOGLE ANALYTICS.  ENTER YOUR CODE and UNCOMMENT block -->
-    <!--
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-_uacct = "YOURCODE";
-urchinTracker();
-</script>
--->
 </body>
 
 </html>
